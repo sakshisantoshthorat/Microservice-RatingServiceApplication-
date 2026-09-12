@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/microservice1"
+    password: Sakshi@2004
+    username: "root"
+  application:
+    name: USERSERVICE
+
+  jpa:
+    hibernate:
+      ddl-auto: update
